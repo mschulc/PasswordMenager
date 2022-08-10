@@ -1,0 +1,10 @@
+﻿<Application x:Class="PasswordMenager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PasswordMenager"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="PasswordDots">./Resources/password-dots.ttf</FontFamily>
+        <FontFamily x:Key="PassDots">./Resources/passDots.ttf</FontFamily>
+    </Application.Resources>
+</Application>
